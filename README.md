@@ -64,7 +64,7 @@ Configure o arquivo .env:
 
 Crie um arquivo .env na raiz do projeto e adicione a URL de conexão do seu banco de dados:
 ```plaintext
-DATABASE_URL="mysql://usuario:senha@localhost:3306/nome_do_banco_de_dados?schema=public&timezone=UTC""
+DATABASE_URL="mysql://usuario:senha@localhost:3306/nome_do_banco_de_dados?schema=public&timezone=UTC"
 ```
 
 ### 5. Execute as Migrações do Prisma
